@@ -19,7 +19,27 @@
       text-align: center;
       padding: 2rem;
     }
-    
+
+    .logo {
+      display: block;
+      margin: 0 auto 2rem auto;
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        max-width: 80vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        max-width: 85vw;
+      }
+    }
+
     h1 {
       font-family: 'League Spartan', sans-serif;
       font-size: 3rem;
@@ -52,6 +72,7 @@
 </head>
 <body>
   <img src="https://i.postimg.cc/fLFF7rcF/IMG-0053.jpg" alt="Logo Studiom" class="logo">
+  <h1>STUDIOM</h1>
   <h2>Rechargez l’avenir dès 2026</h2>
   <p>Nous arrivons bientôt avec des solutions de recharge haut de gamme pour véhicules électriques.</p>
   <p>
@@ -60,3 +81,4 @@
   </p>
 </body>
 </html>
+
