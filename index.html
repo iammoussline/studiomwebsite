@@ -1,87 +1,21 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studiom – Rechargez l’avenir</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=League+Spartan:wght@700&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #0C1B30;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 2rem;
-    }
+<style>
+  .logo {
+    display: block;
+    margin: 0 auto 2rem auto;
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
 
+  @media (max-width: 480px) {
     .logo {
-      display: block;
-      margin: 0 auto 1.5rem auto;
-      width: 80vw;
+      max-width: 240px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo {
       max-width: 300px;
-      height: auto;
     }
-
-    h1 {
-      font-family: 'League Spartan', sans-serif;
-      font-size: 2.8rem;
-      color: white;
-      margin-bottom: 0.5rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-      color: #2CA78F;
-      margin-top: 0;
-    }
-
-    p {
-      color: #ccc;
-      margin-top: 1rem;
-      font-size: 1rem;
-    }
-
-    a {
-      color: #FFAA00;
-      text-decoration: none;
-      margin: 0.5rem;
-      display: inline-block;
-      font-weight: 600;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    @media (min-width: 768px) {
-      .logo {
-        max-width: 400px;
-      }
-
-      h1 {
-        font-size: 3.5rem;
-      }
-
-      h2 {
-        font-size: 1.8rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <img src="https://i.postimg.cc/fLFF7rcF/IMG-0053.jpg" alt="Logo Studiom" class="logo" />
-  <h1>STUDIOM</h1>
-  <h2>Rechargez l’avenir dès 2026</h2>
-  <p>Nous arrivons bientôt avec des solutions de recharge haut de gamme pour véhicules électriques.</p>
-  <p>
-    <a href="mailto:contact@studiomenergie.fr">contact@studiomenergie.fr</a><br />
-    <a href="https://www.linkedin.com/company/studiomenergie" target="_blank">Suivez-nous sur LinkedIn</a>
-  </p>
-</body>
-</html>
+  }
+</style>
